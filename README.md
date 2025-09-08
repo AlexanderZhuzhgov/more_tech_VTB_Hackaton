@@ -1,6 +1,7 @@
 # SQL анализатор
 
 Инструмент для стат. анализа SQL-скриптов на PostgreSQL.
+Тестовая БД взята отсюда - https://postgrespro.ru/education/demodb
 
 ## Возможности
 - Проверка SQL-скриптов на проблемы по типу(SELECT *, JOIN, функции в WHERE, GROUP BY и т.д.).
