@@ -1,4 +1,3 @@
-
 # SQL анализатор
 
 Инструмент для стат. анализа SQL-скриптов на PostgreSQL.
@@ -9,8 +8,8 @@
 
 ## Установка
 ```bash
-git clone <repo_url>
-cd sql_project
+git clone https://github.com/AlexanderZhuzhgov/more_tech_VTB_Hackaton
+cd sql_MORE_hack
 pip install -r requirements.txt
 ```
 
