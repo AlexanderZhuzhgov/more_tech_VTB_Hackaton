@@ -140,7 +140,7 @@ def build_reports(sql_text):
         }
     }
     return report
-
+#ОЛЯ отредачь вот этот кусок
 def render_html(report):
     def row(k,v): return f"<tr><th>{k}</th><td>{v}</td></tr>"
     html = """<!doctype html><html lang='ru'><head><meta charset='utf-8'><title>SQL-анализатор для хакатона от ВТБ More_Tech</title>
