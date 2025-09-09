@@ -10,7 +10,7 @@
 ## Установка
 ```bash
 git clone https://github.com/AlexanderZhuzhgov/more_tech_VTB_Hackaton
-cd sql_MORE_hack
+cd <sql_MORE_hack>  --Жюри выберет вашу папку
 pip install -r requirements.txt
 ```
 
