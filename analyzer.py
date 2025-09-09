@@ -40,7 +40,7 @@ def detect_patterns(sql: str):
             patterns.append({"code":"LARGE_IN_LIST","desc":f"IN-list из {n} элементов — лучше использовать временную таблицу/JOIN."})
     return patterns
 
-def heuristic_cost(sql: str):
+def demo_cost(sql: str):
     s = normalize_sql(sql).lower()
     base = 0
     notes = []
@@ -124,7 +124,7 @@ def to_human(n):
 
 def build_reports(sql_text):
     patterns = detect_patterns(sql_text)
-    cost = heuristic_cost(sql_text)
+    cost = demo_cost(sql_text)
     recs = recommend(sql_text)
     after = simulate_whatif(cost["score"], recs)
     report = {
